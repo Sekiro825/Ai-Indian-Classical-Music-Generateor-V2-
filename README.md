@@ -35,6 +35,10 @@ Both are designed for conditioned generation using controls such as raga, taal, 
 - [docs/research_figures_mermaid_pack.md](docs/research_figures_mermaid_pack.md)
 - [docs/paper_submission_ieee_acm_skeleton.md](docs/paper_submission_ieee_acm_skeleton.md)
 
+### D) SAKET Pitch Package
+
+- [docs/SAKET/SAKET_PITCH.md](docs/SAKET/SAKET_PITCH.md)
+
 ## Quick Notes
 
 - The research docs include architecture and process diagrams in Mermaid format.
