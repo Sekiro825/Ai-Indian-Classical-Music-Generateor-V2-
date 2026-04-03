@@ -33,6 +33,7 @@ Both are designed for conditioned generation using controls such as raga, taal, 
 - [docs/research_paper_master_draft.md](docs/research_paper_master_draft.md)
 - [docs/model_comparison_hybrid_vs_v2.md](docs/model_comparison_hybrid_vs_v2.md)
 - [docs/research_figures_mermaid_pack.md](docs/research_figures_mermaid_pack.md)
+- [docs/paper_submission_ieee_acm_skeleton.md](docs/paper_submission_ieee_acm_skeleton.md)
 
 ## Quick Notes
 
