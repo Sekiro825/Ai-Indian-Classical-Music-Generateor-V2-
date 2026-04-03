@@ -1,0 +1,128 @@
+{
+  "yaman": {
+    "moods": ["romantic", "peaceful", "serene", "calm"],
+    "time_of_day": "evening",
+    "tempo_range": [60, 100],
+    "thaat": "kalyan",
+    "description": "Evokes feelings of devotion, romance, and tranquility"
+  },
+  "bhairavi": {
+    "moods": ["devotional", "melancholic", "sad", "contemplative"],
+    "time_of_day": "morning",
+    "tempo_range": [40, 80],
+    "thaat": "bhairavi",
+    "description": "Expresses deep pathos and devotion, often concluding performances"
+  },
+  "malkauns": {
+    "moods": ["serious", "meditative", "mysterious", "introspective"],
+    "time_of_day": "night",
+    "tempo_range": [50, 90],
+    "thaat": "bhairavi",
+    "description": "Creates a profound, mystical atmosphere"
+  },
+  "bageshree": {
+    "moods": ["romantic", "tender", "longing"],
+    "time_of_day": "night",
+    "tempo_range": [50, 90],
+    "thaat": "kafi",
+    "description": "Expresses romantic longing and separation"
+  },
+  "bhoopali": {
+    "moods": ["peaceful", "serene", "devotional", "happy"],
+    "time_of_day": "evening",
+    "tempo_range": [60, 110],
+    "thaat": "kalyan",
+    "description": "Simple and sweet, expresses devotion and peace"
+  },
+  "asavari": {
+    "moods": ["sad", "serious", "contemplative"],
+    "time_of_day": "morning",
+    "tempo_range": [40, 80],
+    "thaat": "asavari",
+    "description": "Expresses sorrow and pathos"
+  },
+  "sarang": {
+    "moods": ["energetic", "joyful", "festive"],
+    "time_of_day": "noon",
+    "tempo_range": [80, 140],
+    "thaat": "kafi",
+    "description": "Bright and energetic, associated with midday"
+  },
+  "darbari": {
+    "moods": ["serious", "majestic", "profound", "royal"],
+    "time_of_day": "night",
+    "tempo_range": [40, 70],
+    "thaat": "asavari",
+    "description": "Majestic and profound, originally played in royal courts"
+  },
+  "bhoop": {
+    "moods": ["peaceful", "serene", "devotional", "happy"],
+    "time_of_day": "evening",
+    "tempo_range": [60, 110],
+    "thaat": "kalyan",
+    "description": "Same as Bhoopali - simple and sweet"
+  },
+  "addhatrital": {
+    "moods": ["rhythmic", "energetic", "structured"],
+    "time_of_day": "any",
+    "tempo_range": [80, 160],
+    "thaat": "taal",
+    "description": "14-beat rhythmic cycle, versatile for various compositions"
+  },
+  "trital": {
+    "moods": ["versatile", "balanced", "structured"],
+    "time_of_day": "any",
+    "tempo_range": [60, 180],
+    "thaat": "taal",
+    "description": "16-beat rhythmic cycle, most common in Hindustani music"
+  },
+  "dadra": {
+    "moods": ["light", "romantic", "playful"],
+    "time_of_day": "any",
+    "tempo_range": [80, 140],
+    "thaat": "taal",
+    "description": "6-beat rhythmic cycle, used in light classical music"
+  },
+  "deepchandi": {
+    "moods": ["romantic", "graceful", "expressive"],
+    "time_of_day": "any",
+    "tempo_range": [40, 100],
+    "thaat": "taal",
+    "description": "14-beat rhythmic cycle, common in thumri"
+  },
+  "ektal": {
+    "moods": ["steady", "meditative", "structured"],
+    "time_of_day": "any",
+    "tempo_range": [40, 120],
+    "thaat": "taal",
+    "description": "12-beat rhythmic cycle, used in dhrupad and khayal"
+  },
+  "jhaptal": {
+    "moods": ["energetic", "spirited", "dynamic"],
+    "time_of_day": "any",
+    "tempo_range": [60, 140],
+    "thaat": "taal",
+    "description": "10-beat rhythmic cycle"
+  },
+  "rupak": {
+    "moods": ["graceful", "delicate", "romantic"],
+    "time_of_day": "any",
+    "tempo_range": [40, 100],
+    "thaat": "taal",
+    "description": "7-beat rhythmic cycle with unique starting point"
+  },
+  "bhajani": {
+    "moods": ["devotional", "spiritual", "peaceful"],
+    "time_of_day": "morning",
+    "tempo_range": [60, 100],
+    "thaat": "taal",
+    "description": "Rhythmic pattern used in devotional music"
+  },
+  "dkanada": {
+    "moods": ["serious", "profound", "night"],
+    "time_of_day": "night",
+    "tempo_range": [40, 80],
+    "thaat": "kafi",
+    "description": "Deep night raga with serious mood"
+  }
+}

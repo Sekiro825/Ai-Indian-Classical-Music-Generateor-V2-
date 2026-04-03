@@ -1,0 +1,62 @@
+{
+  "vocab_size": 15000,
+  "max_seq_length": 512,
+  "d_model": 1280,
+  "n_layers": 48,
+  "mamba": {
+    "d_state": 64,
+    "d_conv": 4,
+    "expand": 2,
+    "dt_rank": "auto",
+    "dt_min": 0.001,
+    "dt_max": 0.1,
+    "dt_init": "random",
+    "dt_scale": 1.0,
+    "conv_bias": true,
+    "bias": false
+  },
+  "dropout": 0.1,
+  "flow": {
+    "num_flow_steps": 100,
+    "sigma_min": 0.001,
+    "solver": "euler"
+  },
+  "num_moods": 36,
+  "num_ragas": 150,
+  "mood_embed_dim": 128,
+  "raga_embed_dim": 256,
+  "taal": {
+    "num_taals": 14,
+    "taal_cycles": {
+      "trital": 16,
+      "ektal": 12,
+      "jhaptal": 10,
+      "rupak": 7,
+      "dadra": 6,
+      "keherwa": 8,
+      "deepchandi": 14,
+      "addhatrital": 8,
+      "bhajani": 8,
+      "adi": 8,
+      "misra_chapu": 7,
+      "khanda_chapu": 5,
+      "roopak": 7,
+      "unknown": 8
+    },
+    "embed_dim": 128,
+    "use_taal_position": true
+  },
+  "tempo_embed_dim": 64,
+  "duration_embed_dim": 64,
+  "use_expression": true,
+  "expression": {
+    "input_dim": 4,
+    "hidden_dim": 512,
+    "embed_dim": 256,
+    "num_layers": 3,
+    "dropout": 0.1
+  },
+  "expression_loss_weight": 0.5,
+  "flow_loss_weight": 1.0,
+  "use_gradient_checkpointing": true
+}

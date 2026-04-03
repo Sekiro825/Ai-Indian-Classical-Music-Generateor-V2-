@@ -1,0 +1,29 @@
+# Core ML Stack (Linux GPU / Python 3.12 Optimized)
+torch>=2.0.0
+torchaudio>=2.0.0
+mido>=1.2.10
+numpy>=1.24.0
+scipy>=1.10.0
+tqdm>=4.65.0
+
+# API Backend
+fastapi>=0.100.0
+uvicorn>=0.23.0
+python-multipart>=0.0.6
+pydantic>=2.0.0
+requests>=2.28.0
+python-dotenv>=1.0.0
+
+# Audio Processing & Transcription
+# We avoid basic-pitch/tensorflow dependency to fix Python 3.12 deadlock.
+midi2audio>=0.1.1
+librosa>=0.10.0
+soundfile>=0.12.0
+pretty_midi>=0.2.10
+resampy>=0.4.0
+
+# High-Performance ONNX Inference (Stable alternative for basic-pitch)
+onnxruntime-gpu>=1.14.0 # For Lightning.ai GPU acceleration
+
+# Progress & CLI
+rich>=13.0.0
